@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">oech app final</string>
+    <string name="resend_after">Resend after %1$d:%2$02d</string>
+    <string name="resend">Resend</string>
+    <string name="by_ticking_this_box_you_agree_to_our_terms_and_n_conditions_and_private_policy">By ticking this box, you agree to our <span style="color: #EBBC2E;">Terms and \n conditions and private policy</span></string>
+</resources>

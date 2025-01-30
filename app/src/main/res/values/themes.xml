@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.OechAppFinal" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.OechAppFinal" parent="Base.Theme.OechAppFinal">
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
+    <style name="SplashScreen" parent="Theme.OechAppFinal">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/group</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.OechAppFinal</item>
+    </style>
+
+        <style name="Theme.BottomNavigationView.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+            <item name="android:color">@android:color/transparent</item>
+        </style>
+</resources>
